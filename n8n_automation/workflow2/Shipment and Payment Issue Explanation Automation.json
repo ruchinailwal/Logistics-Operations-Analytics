@@ -1,0 +1,168 @@
+{
+  "name": "Shipment and Payment Issue Explanation Automation",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "shipment-issue",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "02ac3a82-4d11-441d-96cb-02e2bcefd7db",
+      "name": "Webhook",
+      "webhookId": "5d8b7e77-bb5d-49ce-84b1-33c3381e46b9"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n    sd.sh_id AS shipment_id,\n    c.c_name AS customer_name,\n    c.c_type AS customer_type,\n    sd.sh_content,\n    sd.sh_domain,\n    sd.ser_type,\n    sd.sh_weight,\n    sd.sh_charges,\n    st.current_status,\n    st.sent_date,\n    st.delivery_date,\n    p.amount,\n    p.payment_status,\n    p.payment_mode,\n    p.payment_date\nFROM shipment_details sd\nLEFT JOIN customer c ON sd.c_id = c.c_id\nLEFT JOIN status st ON sd.sh_id = st.sh_id\nLEFT JOIN payment_details p ON sd.sh_id = p.sh_id\nWHERE sd.sh_id = {{ $json.body.shipment_id }};",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        208,
+        0
+      ],
+      "id": "ee6bd200-a296-4968-8e76-5158e7759cf7",
+      "name": "Execute a SQL query",
+      "credentials": {
+        "postgres": {
+          "id": "cvVtuhVA51WF9GGZ",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"openai/gpt-oss-20b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are an AI logistics support assistant helping an operations employee understand and resolve a shipment or payment issue. Your explanation is for the EMPLOYEE handling this case, not a message to the customer. Rules: 1. Use only the facts provided in the data. Never invent details that are not present (e.g., do not mention payment links, login portals, or contact methods unless they are explicitly given to you). 2. Explain the situation in simple, non-technical language - avoid jargon. 3. Combine shipment, payment, and customer context to explain WHY the issue may be happening. 4. End with a short, numbered list of concrete actions the employee should take next. 5. Keep the tone professional and factual, not customer-facing or overly casual.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Here is the data for this case: Shipment ID: {{$json.shipment_id}}, Customer: {{$json.customer_name}} ({{$json.customer_type}}), Shipment content: {{$json.sh_content}}, Domain: {{$json.sh_domain}}, Service type: {{$json.ser_type}}, Delivery status: {{$json.current_status}}, Payment status: {{$json.payment_status}}, Payment mode: {{$json.payment_mode}}. Explain this situation to the employee handling it, and tell them what to do next.\"\n    }\n  ],\n  \"temperature\": 0.5\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        416,
+        0
+      ],
+      "id": "8d396f1a-72ce-43f7-9ea0-3d323ba4acaa",
+      "name": "HTTP Request",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "7j6Zh35wcAb0RjLi",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7f33eedd-fbc5-4899-b004-9291abdd880c",
+              "name": "ai_response",
+              "value": "={{$json.choices[0].message.content}}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        624,
+        0
+      ],
+      "id": "421245dc-8bc7-4257-9d09-c80c3640d792",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{$json.ai_response}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        832,
+        0
+      ],
+      "id": "860e973d-5a53-4784-be76-97dc422030f4",
+      "name": "Respond to Webhook"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "eaeb57e9-1f0b-4a5d-9a7c-74662932dc3f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d2c17968d264c4da317d5aeeb823bd7f735a68d1f87a03f0eba7496cd566faca"
+  },
+  "nodeGroups": [],
+  "id": "9U8iY3gLqovbT4jp",
+  "tags": []
+}

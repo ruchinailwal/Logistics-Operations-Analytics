@@ -1,0 +1,201 @@
+c_id,c_name,c_email_id,c_type,payment_id,amount,payment_mode,payment_status,payment_date,payment_category
+230,Mitchell,harriette42@ymail.com,Internal Goods,313cd69e-66f3-11ea-9879-7077813058ce,49302.00,CARD PAYMENT,PAID,2014-12-18,High
+3189,Reginald,matthew951@yahoo.co.in,Wholesale,313dc140-66f3-11ea-a952-7077813058ce,78698.00,CARD PAYMENT,PAID,1997-07-10,High
+2216,Jaylene,geraldine867@ymail.co.in,Retail,313eab1e-66f3-11ea-81af-7077813058ce,69417.00,CARD PAYMENT,NOT PAID,,High
+2182,Paige,ilana40@ymail.co.in,Retail,319fa8a8-66f3-11ea-b17c-7077813058ce,312.00,COD,NOT PAID,,Low
+1904,Stacie,brenda905@ymail.com,Internal Goods,313f474a-66f3-11ea-a78b-7077813058ce,39655.00,COD,NOT PAID,,High
+7342,Jonathan,malie282@gmail.com,Wholesale,3140589a-66f3-11ea-a057-7077813058ce,87400.00,COD,NOT PAID,,High
+7633,Italia,fred847@google.co.in,Internal Goods,31411bc8-66f3-11ea-a4b7-7077813058ce,56881.00,CARD PAYMENT,PAID,1971-11-01,High
+2154,Catherine,clay224@gmail.com,Wholesale,3141defa-66f3-11ea-b10e-7077813058ce,99239.00,COD,NOT PAID,,High
+5543,Pierre,alaysha578@hotmail.com,Wholesale,3142c940-66f3-11ea-9f69-7077813058ce,23921.00,COD,NOT PAID,,High
+2332,Sheryl,kelli519@gmail.com,Retail,31444fa8-66f3-11ea-912a-7077813058ce,67599.00,CARD PAYMENT,NOT PAID,,High
+4094,Rory,ryker154@hotmail.com,Internal Goods,314539e6-66f3-11ea-bfa4-7077813058ce,3725.00,COD,NOT PAID,,Medium
+3042,Cecile,johnnie593@hotmail.com,Wholesale,3145fd0a-66f3-11ea-958b-7077813058ce,95516.00,COD,PAID,1991-05-15,High
+2220,Monte,zykeria36@google.co.in,Wholesale,31469934-66f3-11ea-8572-7077813058ce,62528.00,COD,PAID,1976-06-30,High
+4988,Belle,selma775@yahoo.co.in,Wholesale,3147355e-66f3-11ea-aae4-7077813058ce,21021.00,CARD PAYMENT,NOT PAID,,High
+175,Rayshawn,kathryn298@gmail.com,Wholesale,3147f89c-66f3-11ea-8dfd-7077813058ce,99492.00,CARD PAYMENT,NOT PAID,,High
+4233,Abby,karl167@google.co.in,Internal Goods,3148bbc8-66f3-11ea-8acf-7077813058ce,60282.00,CARD PAYMENT,PAID,1987-08-09,High
+4351,Alonzo,freda331@yahoo.co.in,Internal Goods,31497efa-66f3-11ea-9497-7077813058ce,20357.00,CARD PAYMENT,NOT PAID,,High
+5578,Ray,david216@ymail.com,Wholesale,314a1b22-66f3-11ea-9e82-7077813058ce,24053.00,CARD PAYMENT,NOT PAID,,High
+4523,Tiffany,winnifred436@gmail.com,Wholesale,314ade58-66f3-11ea-8979-7077813058ce,50958.00,CARD PAYMENT,NOT PAID,,High
+2972,Rosalind,bryce535@google.co.in,Wholesale,314b7a8a-66f3-11ea-97d4-7077813058ce,68227.00,CARD PAYMENT,PAID,1977-07-06,High
+6153,Franklin,maeve922@gmail.com,Retail,314c8bcc-66f3-11ea-b526-7077813058ce,77861.00,CARD PAYMENT,PAID,1997-09-08,High
+4852,Sophie,seth275@ymail.com,Internal Goods,314d761e-66f3-11ea-b155-7077813058ce,48315.00,CARD PAYMENT,NOT PAID,,High
+8106,Matthew,maria344@yahoo.com,Retail,314eae64-66f3-11ea-b08f-7077813058ce,83002.00,CARD PAYMENT,PAID,1999-03-05,High
+3917,Larry,taron588@yahoo.co.in,Internal Goods,314f4a7a-66f3-11ea-8b83-7077813058ce,47650.00,COD,PAID,1977-11-08,High
+9377,Elena,bryce621@google.co.in,Internal Goods,315034c6-66f3-11ea-a2bf-7077813058ce,19386.00,COD,NOT PAID,,High
+5387,Brady,ramona218@gmail.com,Retail,31511efa-66f3-11ea-bc4c-7077813058ce,39432.00,COD,PAID,2005-09-15,High
+6513,Sapphire,adrienne107@gmail.com,Retail,3151e23a-66f3-11ea-9b38-7077813058ce,1421.00,COD,PAID,2019-12-12,Medium
+3965,Gene,dawn743@yahoo.com,Retail,3152a56c-66f3-11ea-9340-7077813058ce,16113.00,COD,PAID,2013-11-15,High
+8893,Magdalene,yessenia134@yahoo.com,Retail,31534188-66f3-11ea-8acd-7077813058ce,52318.00,CARD PAYMENT,NOT PAID,,High
+1897,Norma,ryan368@ymail.com,Wholesale,3153ddb4-66f3-11ea-a4d6-7077813058ce,7389.00,CARD PAYMENT,NOT PAID,,High
+390,Destiny,harriette113@ymail.co.in,Retail,3154c800-66f3-11ea-8721-7077813058ce,86040.00,COD,PAID,2013-11-15,High
+3633,Glory,jana467@gmail.com,Internal Goods,3155d94c-66f3-11ea-b116-7077813058ce,56148.00,COD,PAID,2001-08-10,High
+7828,Latasha,frances207@ymail.co.in,Internal Goods,31575fac-66f3-11ea-8d99-7077813058ce,894.00,CARD PAYMENT,PAID,2006-07-17,Low
+2241,Clay,tiffani841@google.co.in,Internal Goods,315897f8-66f3-11ea-ad46-7077813058ce,35634.00,COD,NOT PAID,,High
+896,Frances,cecile32@hotmail.com,Internal Goods,3159d04c-66f3-11ea-95df-7077813058ce,28701.00,CARD PAYMENT,PAID,2013-11-15,High
+6361,Dinah,bryce393@ymail.com,Internal Goods,315aba8a-66f3-11ea-9db6-7077813058ce,90380.00,CARD PAYMENT,PAID,1993-08-02,High
+6713,Merna,earle203@google.co.in,Retail,315b7db4-66f3-11ea-ae41-7077813058ce,21813.00,COD,NOT PAID,,High
+4283,Louise,danita716@ymail.com,Wholesale,315c67f4-66f3-11ea-bcd7-7077813058ce,36312.00,CARD PAYMENT,NOT PAID,,High
+9486,Kaitlyn,raeleigh114@gmail.com,Wholesale,315d041c-66f3-11ea-8af9-7077813058ce,24856.00,CARD PAYMENT,PAID,2002-10-20,High
+308,Morgan,guy394@outlook.com,Retail,315da042-66f3-11ea-ac04-7077813058ce,39234.00,CARD PAYMENT,PAID,2006-07-17,High
+8927,Courtney,anastasia108@google.co.in,Wholesale,315e3c68-66f3-11ea-8d08-7077813058ce,74222.00,COD,PAID,2004-11-20,High
+249,Rayshawn,benita963@gmail.com,Retail,315f26ac-66f3-11ea-a883-7077813058ce,47260.00,CARD PAYMENT,PAID,1982-03-08,High
+2620,Eddie,dianne471@ymail.com,Retail,315fe9e2-66f3-11ea-b80f-7077813058ce,45432.00,COD,NOT PAID,,High
+1164,Maurice,andrea833@yahoo.co.in,Internal Goods,3160ad0c-66f3-11ea-961a-7077813058ce,30192.00,COD,PAID,1994-04-09,High
+4711,Taryn,raul112@outlook.com,Internal Goods,31619754-66f3-11ea-911d-7077813058ce,53868.00,CARD PAYMENT,NOT PAID,,High
+4053,Lazaro,raven727@yahoo.co.in,Retail,3162337a-66f3-11ea-bf3c-7077813058ce,9691.00,CARD PAYMENT,NOT PAID,,High
+4272,Muriel,rebecca74@yahoo.co.in,Retail,3162cf9c-66f3-11ea-917a-7077813058ce,39001.00,COD,NOT PAID,,High
+7005,Dejon,rosalind124@hotmail.com,Retail,31636bd2-66f3-11ea-aa21-7077813058ce,70814.00,CARD PAYMENT,NOT PAID,,High
+2308,Peter,anne714@gmail.com,Internal Goods,31642f12-66f3-11ea-b553-7077813058ce,13740.00,COD,PAID,2008-08-09,High
+5150,Todd,michael518@yahoo.com,Wholesale,3164f24c-66f3-11ea-bf87-7077813058ce,33435.00,CARD PAYMENT,NOT PAID,,High
+693,Stacy,danielle957@yahoo.co.in,Internal Goods,3165b562-66f3-11ea-83de-7077813058ce,73589.00,CARD PAYMENT,NOT PAID,,High
+9598,Frank,heather632@hotmail.com,Internal Goods,316678a4-66f3-11ea-b7d3-7077813058ce,18598.00,COD,PAID,1982-10-15,High
+8103,Catherine,kaitlyn744@yahoo.com,Retail,31673bc8-66f3-11ea-803a-7077813058ce,23003.00,CARD PAYMENT,PAID,2007-07-12,High
+8894,Daren,eileen529@google.co.in,Wholesale,3167d7ee-66f3-11ea-a273-7077813058ce,80901.00,CARD PAYMENT,NOT PAID,,High
+114,Tiffany,cheyenne213@outlook.com,Internal Goods,3168c236-66f3-11ea-ad73-7077813058ce,69113.00,COD,PAID,1991-07-15,High
+6546,Isidro,ely630@yahoo.com,Wholesale,3169fa82-66f3-11ea-a4aa-7077813058ce,26060.00,COD,NOT PAID,,High
+3571,Claude,irby513@hotmail.com,Retail,316abe90-66f3-11ea-b19a-7077813058ce,25677.00,CARD PAYMENT,NOT PAID,,High
+7316,Gaylon,genevieve714@hotmail.com,Retail,316ba7f6-66f3-11ea-913f-7077813058ce,62912.00,COD,NOT PAID,,High
+2478,Adonis,elliana123@hotmail.com,Internal Goods,316c441e-66f3-11ea-89de-7077813058ce,77649.00,CARD PAYMENT,PAID,1983-09-30,High
+1215,Stacy,katrice318@yahoo.co.in,Internal Goods,316ce042-66f3-11ea-b223-7077813058ce,73561.00,COD,PAID,2006-10-22,High
+5402,Claude,laverne188@google.co.in,Retail,316d7c6e-66f3-11ea-aad7-7077813058ce,50357.00,COD,NOT PAID,,High
+1647,Bambi,chasity357@yahoo.co.in,Internal Goods,316e8db8-66f3-11ea-88c1-7077813058ce,61325.00,CARD PAYMENT,PAID,2000-03-22,High
+9423,Isabela,kyle670@gmail.com,Retail,316f77f6-66f3-11ea-8aa2-7077813058ce,76658.00,COD,NOT PAID,,High
+6404,Philip,gene977@ymail.co.in,Internal Goods,3170141c-66f3-11ea-97a3-7077813058ce,35525.00,COD,NOT PAID,,High
+6767,Joe,marlene682@outlook.com,Wholesale,3170d834-66f3-11ea-b48e-7077813058ce,12462.00,COD,PAID,2012-10-04,High
+1278,Alonzo,clay181@hotmail.com,Wholesale,31717452-66f3-11ea-9fcf-7077813058ce,27105.00,COD,PAID,1977-11-08,High
+1334,Philip,baldemar170@yahoo.co.in,Internal Goods,3172107a-66f3-11ea-ad07-7077813058ce,99604.00,COD,PAID,2010-11-30,High
+8887,Lola,claudia529@google.co.in,Retail,3172d2fa-66f3-11ea-bad5-7077813058ce,90449.00,CARD PAYMENT,PAID,2009-03-09,High
+9858,Jennie,arya715@ymail.co.in,Wholesale,3173e41e-66f3-11ea-b5f4-7077813058ce,9520.00,COD,NOT PAID,,High
+9636,Brennan,rodney10@ymail.com,Wholesale,3174f566-66f3-11ea-98c3-7077813058ce,42210.00,CARD PAYMENT,NOT PAID,,High
+9943,Juan,amelia849@hotmail.com,Internal Goods,3175dfa2-66f3-11ea-b9d8-7077813058ce,21639.00,COD,NOT PAID,,High
+1246,Carlotta,stephanie808@gmail.com,Retail,31767bca-66f3-11ea-848b-7077813058ce,58736.00,COD,PAID,2019-07-31,High
+4527,Austin,dejon859@ymail.com,Wholesale,317717f0-66f3-11ea-b57c-7077813058ce,3951.00,CARD PAYMENT,PAID,2002-01-05,Medium
+3782,Naisha,lawrence813@gmail.com,Retail,3177db2e-66f3-11ea-99fe-7077813058ce,69479.00,CARD PAYMENT,NOT PAID,,High
+6225,Maurice,felicity667@ymail.com,Internal Goods,3178c56c-66f3-11ea-9547-7077813058ce,10366.00,COD,PAID,2006-12-23,High
+2257,Gabrielle,kim205@hotmail.com,Retail,31796190-66f3-11ea-b0b6-7077813058ce,10001.00,CARD PAYMENT,NOT PAID,,High
+9177,Grover,morgan937@yahoo.com,Wholesale,3179fdb8-66f3-11ea-b117-7077813058ce,15307.00,CARD PAYMENT,PAID,1996-05-01,High
+8703,Carter,hudson500@gmail.com,Internal Goods,317ac112-66f3-11ea-96bf-7077813058ce,68923.00,CARD PAYMENT,NOT PAID,,High
+3514,Claude,stacy454@hotmail.com,Wholesale,317b8422-66f3-11ea-8b90-7077813058ce,59651.00,COD,PAID,2004-09-25,High
+3089,Bianca,peter111@ymail.co.in,Internal Goods,317c204a-66f3-11ea-b627-7077813058ce,78953.00,CARD PAYMENT,NOT PAID,,High
+7253,Frank,beth644@outlook.com,Internal Goods,317ce378-66f3-11ea-b64a-7077813058ce,89420.00,COD,PAID,2004-03-02,High
+8786,Marie,devon640@hotmail.com,Internal Goods,317dcdc0-66f3-11ea-a3ce-7077813058ce,50374.00,CARD PAYMENT,NOT PAID,,High
+1211,Neri,jonathan257@google.co.in,Internal Goods,317e69e2-66f3-11ea-8d1d-7077813058ce,83102.00,COD,NOT PAID,,High
+359,Chelsey,benita200@yahoo.co.in,Internal Goods,317f5426-66f3-11ea-9e99-7077813058ce,62151.00,COD,NOT PAID,,High
+2066,Catherine,john780@yahoo.com,Retail,31803e5c-66f3-11ea-9cfa-7077813058ce,84665.00,COD,NOT PAID,,High
+4322,Lucien,jan805@ymail.com,Internal Goods,3180da86-66f3-11ea-a8db-7077813058ce,1760.00,COD,PAID,1995-08-23,Medium
+7773,Aidan,robert988@google.co.in,Internal Goods,318176ac-66f3-11ea-8841-7077813058ce,30239.00,COD,PAID,1985-01-31,High
+6746,Tomeka,kaitlyn60@yahoo.com,Wholesale,318260fe-66f3-11ea-a0f0-7077813058ce,20194.00,COD,PAID,2006-10-20,High
+6732,Theresa,stephan274@yahoo.co.in,Internal Goods,31832428-66f3-11ea-9902-7077813058ce,58470.00,COD,PAID,1989-10-17,High
+805,Korie,emma964@gmail.com,Retail,31851fae-66f3-11ea-9f4d-7077813058ce,91926.00,COD,NOT PAID,,High
+7540,Misael,monica700@gmail.com,Retail,31863106-66f3-11ea-8b2f-7077813058ce,34797.00,COD,PAID,1980-03-16,High
+5269,Steven,pamala451@outlook.com,Retail,31876958-66f3-11ea-afcb-7077813058ce,19346.00,COD,NOT PAID,,High
+8404,Tammi,matt620@yahoo.com,Wholesale,31885382-66f3-11ea-b84f-7077813058ce,35185.00,COD,NOT PAID,,High
+519,Rayburn,kristie659@hotmail.com,Retail,318916c0-66f3-11ea-8a7c-7077813058ce,7068.00,CARD PAYMENT,NOT PAID,,High
+4060,Gordon,lee224@ymail.co.in,Wholesale,318a2800-66f3-11ea-b639-7077813058ce,96496.00,CARD PAYMENT,PAID,1987-08-09,High
+8860,Zakariya,roger478@ymail.co.in,Retail,318b396c-66f3-11ea-9883-7077813058ce,2988.00,CARD PAYMENT,PAID,1990-09-11,Medium
+7164,Otis,zoya623@gmail.com,Retail,318cbfc6-66f3-11ea-b57f-7077813058ce,83253.00,COD,PAID,1989-09-17,High
+9792,Curtis,robert627@yahoo.co.in,Retail,318d82e8-66f3-11ea-9cca-7077813058ce,87828.00,COD,PAID,2014-09-09,High
+9934,Gabrielle,danny201@yahoo.com,Retail,318e4628-66f3-11ea-a70e-7077813058ce,17035.00,COD,PAID,1997-06-12,High
+1980,Dani,ryker409@gmail.com,Retail,318f305e-66f3-11ea-b203-7077813058ce,426.00,COD,NOT PAID,,Low
+9251,Sadie,zelda490@yahoo.co.in,Retail,31901a98-66f3-11ea-830a-7077813058ce,20238.00,COD,PAID,1977-03-30,High
+6717,Emma,david957@ymail.com,Internal Goods,3190ddc6-66f3-11ea-8fea-7077813058ce,68331.00,CARD PAYMENT,PAID,1982-10-29,High
+3622,Eddie,jacquelin945@yahoo.com,Internal Goods,3191ef06-66f3-11ea-bb69-7077813058ce,86132.00,CARD PAYMENT,PAID,2019-03-01,High
+8808,Connie,ardis505@ymail.com,Retail,31930050-66f3-11ea-8535-7077813058ce,766.00,CARD PAYMENT,NOT PAID,,Low
+4920,Ricky,scott41@hotmail.com,Retail,319438b6-66f3-11ea-9722-7077813058ce,13169.00,COD,NOT PAID,,High
+3140,Patrick,alexia131@outlook.com,Wholesale,319549e8-66f3-11ea-85a4-7077813058ce,48657.00,COD,PAID,2004-10-26,High
+8104,Annie,donnell940@ymail.co.in,Wholesale,31963430-66f3-11ea-bdc7-7077813058ce,88037.00,CARD PAYMENT,NOT PAID,,High
+2208,Elvia,trent560@google.co.in,Retail,31971e6e-66f3-11ea-86f5-7077813058ce,21972.00,CARD PAYMENT,PAID,2013-08-11,High
+7043,Laurette,gerald85@google.co.in,Retail,31987dc0-66f3-11ea-a59b-7077813058ce,87886.00,COD,NOT PAID,,High
+7485,Austin,zakariya835@yahoo.com,Retail,3199b61c-66f3-11ea-ab02-7077813058ce,3244.00,CARD PAYMENT,PAID,2010-04-27,Medium
+1748,Willie,artie206@ymail.com,Internal Goods,319ac762-66f3-11ea-b75f-7077813058ce,32031.00,COD,PAID,1992-11-01,High
+9968,Diana,ryan128@yahoo.com,Retail,319bfff4-66f3-11ea-8fba-7077813058ce,51284.00,CARD PAYMENT,NOT PAID,,High
+5330,Amelia,albertha398@ymail.com,Retail,319d3826-66f3-11ea-8b8d-7077813058ce,23055.00,CARD PAYMENT,PAID,2011-06-08,High
+2183,Dennis,carolyn538@yahoo.co.in,Internal Goods,319e9766-66f3-11ea-9392-7077813058ce,94926.00,CARD PAYMENT,PAID,2003-12-02,High
+1087,Lydia,christa254@gmail.com,Wholesale,31a0e11a-66f3-11ea-999b-7077813058ce,45852.00,COD,PAID,2018-08-30,High
+4296,Kandace,bobby84@yahoo.com,Internal Goods,31a1cb62-66f3-11ea-81bc-7077813058ce,77063.00,CARD PAYMENT,PAID,2013-03-09,High
+9784,Tianna,laurence971@yahoo.co.in,Internal Goods,31a2b586-66f3-11ea-a9ea-7077813058ce,44299.00,COD,PAID,2013-06-21,High
+6210,Roxanne,trevon752@yahoo.co.in,Retail,31a3c6d8-66f3-11ea-983d-7077813058ce,67123.00,COD,PAID,1991-07-03,High
+5781,Hellen,jason341@yahoo.com,Retail,31a489fa-66f3-11ea-9155-7077813058ce,51104.00,COD,NOT PAID,,High
+8306,Zoie,ramona899@yahoo.com,Retail,31a5c242-66f3-11ea-960b-7077813058ce,35369.00,CARD PAYMENT,NOT PAID,,High
+3270,George,harvey871@ymail.co.in,Retail,31a6ac9c-66f3-11ea-926a-7077813058ce,559.00,CARD PAYMENT,PAID,1974-05-25,Low
+6787,Genesis,ericka392@hotmail.com,Wholesale,31a796d0-66f3-11ea-ae4e-7077813058ce,13394.00,CARD PAYMENT,NOT PAID,,High
+3733,Reymundo,scott810@ymail.co.in,Internal Goods,31a859f0-66f3-11ea-8394-7077813058ce,51472.00,CARD PAYMENT,PAID,1975-05-20,High
+207,Boyd,shirley751@gmail.com,Retail,31a9925e-66f3-11ea-b9ab-7077813058ce,99367.00,COD,PAID,2005-09-15,High
+3,Janelle,nevaeh593@outlook.com,Internal Goods,31aa7c8c-66f3-11ea-bbd5-7077813058ce,98982.00,CARD PAYMENT,NOT PAID,,High
+1896,Bryn,rayburn250@yahoo.co.in,Retail,31ab66b6-66f3-11ea-b954-7077813058ce,47111.00,COD,NOT PAID,,High
+9631,Eriana,rayburn258@gmail.com,Retail,31ac02dc-66f3-11ea-8f7e-7077813058ce,87420.00,COD,NOT PAID,,High
+3132,Bayley,sharyn974@ymail.co.in,Retail,31aced36-66f3-11ea-b593-7077813058ce,59376.00,COD,NOT PAID,,High
+1202,Chasity,leslie740@ymail.co.in,Internal Goods,31add76e-66f3-11ea-bc98-7077813058ce,41003.00,CARD PAYMENT,NOT PAID,,High
+8834,Dejon,ericka359@ymail.com,Internal Goods,31ae9a98-66f3-11ea-9239-7077813058ce,58511.00,CARD PAYMENT,NOT PAID,,High
+1201,Sydney,curtis682@hotmail.com,Internal Goods,31af36c0-66f3-11ea-9653-7077813058ce,52868.00,COD,PAID,1983-07-22,High
+2573,Bernadine,alessia799@hotmail.com,Internal Goods,31affa0a-66f3-11ea-8464-7077813058ce,8206.00,CARD PAYMENT,PAID,2016-09-21,High
+6759,Julianna,bridgett374@yahoo.com,Internal Goods,31b0e428-66f3-11ea-8884-7077813058ce,48873.00,CARD PAYMENT,NOT PAID,,High
+2601,Gwendolyn,kelly848@hotmail.com,Wholesale,31b21c7a-66f3-11ea-b007-7077813058ce,22214.00,CARD PAYMENT,NOT PAID,,High
+2656,Maurice,francis214@hotmail.com,Wholesale,31b2dfd8-66f3-11ea-b094-7077813058ce,806.00,COD,NOT PAID,,Low
+9645,Muriel,stephania835@gmail.com,Wholesale,31b3ca0a-66f3-11ea-bdb1-7077813058ce,27590.00,CARD PAYMENT,PAID,2006-01-09,High
+584,Marie,zella692@yahoo.co.in,Wholesale,31b4db48-66f3-11ea-8ac6-7077813058ce,5769.00,CARD PAYMENT,NOT PAID,,High
+2121,Holli,tiffany386@ymail.com,Wholesale,31b6138a-66f3-11ea-a991-7077813058ce,38290.00,COD,PAID,1979-09-12,High
+2142,Rory,bernard448@google.co.in,Internal Goods,31b6fdd4-66f3-11ea-8bc0-7077813058ce,44807.00,CARD PAYMENT,PAID,2002-10-20,High
+2396,Miley,parth128@gmail.com,Retail,31b80f2e-66f3-11ea-9f03-7077813058ce,11223.00,COD,PAID,2005-09-15,High
+8747,Trey,arlene95@ymail.co.in,Retail,31b8ab40-66f3-11ea-a1ea-7077813058ce,85889.00,COD,PAID,1998-09-11,High
+4142,Debora,ronnie261@ymail.co.in,Retail,31b96e70-66f3-11ea-9a67-7077813058ce,57138.00,COD,PAID,1989-08-23,High
+9770,Sonja,anne892@hotmail.com,Wholesale,31ba31b0-66f3-11ea-b455-7077813058ce,987.00,COD,PAID,1977-11-08,Low
+2593,Willie,kathleen439@outlook.com,Wholesale,31bb1bfa-66f3-11ea-982b-7077813058ce,80179.00,COD,PAID,2009-01-26,High
+9807,Max,jalen33@yahoo.com,Retail,31bbdf14-66f3-11ea-8012-7077813058ce,63810.00,CARD PAYMENT,PAID,2001-08-03,High
+2525,Danielle,jensen191@ymail.co.in,Internal Goods,31bca246-66f3-11ea-abf6-7077813058ce,22261.00,CARD PAYMENT,PAID,1992-12-25,High
+1724,Caitlin,stanley922@ymail.co.in,Internal Goods,31bd8c92-66f3-11ea-9011-7077813058ce,37286.00,CARD PAYMENT,PAID,2004-05-17,High
+7146,Enrique,stanley112@outlook.com,Wholesale,31be28b0-66f3-11ea-ac89-7077813058ce,73874.00,CARD PAYMENT,PAID,2003-11-28,High
+563,Brenda,pamela639@google.co.in,Retail,31beebdc-66f3-11ea-a06e-7077813058ce,20187.00,COD,NOT PAID,,High
+7771,Andre,isabela532@hotmail.com,Retail,31bfaf0c-66f3-11ea-8a4e-7077813058ce,51038.00,COD,NOT PAID,,High
+4789,Eunice,tiffani333@outlook.com,Internal Goods,31c07288-66f3-11ea-a2cf-7077813058ce,89846.00,COD,NOT PAID,,High
+3221,Johnny,ora822@outlook.com,Retail,31c1364c-66f3-11ea-82bf-7077813058ce,59967.00,CARD PAYMENT,NOT PAID,,High
+5197,Christa,crystal579@outlook.com,Internal Goods,31c1f8b4-66f3-11ea-8397-7077813058ce,59474.00,COD,PAID,2012-01-17,High
+8183,Wilbur,todd405@ymail.co.in,Retail,31c30a08-66f3-11ea-aba8-7077813058ce,77342.00,COD,NOT PAID,,High
+1126,Steve,frederick409@outlook.com,Wholesale,31c49062-66f3-11ea-ba20-7077813058ce,57460.00,COD,PAID,2010-03-02,High
+4899,Ronnie,makala843@ymail.com,Internal Goods,31c616ba-66f3-11ea-afb3-7077813058ce,74930.00,COD,NOT PAID,,High
+4732,Julie,wayne473@gmail.com,Internal Goods,31c6b2fe-66f3-11ea-9b07-7077813058ce,89389.00,COD,NOT PAID,,High
+4103,Paola,bart400@outlook.com,Internal Goods,31c77618-66f3-11ea-bb5b-7077813058ce,86767.00,COD,NOT PAID,,High
+7861,Shemar,leighann675@gmail.com,Wholesale,31c8394a-66f3-11ea-bf8e-7077813058ce,42257.00,COD,PAID,2008-05-17,High
+7764,Albert,christina573@hotmail.com,Wholesale,31c8fc98-66f3-11ea-b3c3-7077813058ce,28987.00,COD,NOT PAID,,High
+5345,Kyleigh,edith189@ymail.co.in,Wholesale,31c9e6be-66f3-11ea-9f95-7077813058ce,38952.00,COD,PAID,2010-08-28,High
+6191,Julianna,milburn442@hotmail.com,Retail,31caa9ee-66f3-11ea-bce1-7077813058ce,50635.00,COD,NOT PAID,,High
+310,Michaela,loren171@gmail.com,Internal Goods,31cb461a-66f3-11ea-a37c-7077813058ce,32800.00,COD,NOT PAID,,High
+3095,Stefania,zoie905@gmail.com,Retail,31cc0964-66f3-11ea-b6b3-7077813058ce,67478.00,CARD PAYMENT,NOT PAID,,High
+2159,Nigel,coleman372@yahoo.co.in,Retail,31cccd64-66f3-11ea-a4c2-7077813058ce,24449.00,COD,PAID,2011-06-25,High
+3569,Mavis,jennifer84@gmail.com,Retail,31cd8fca-66f3-11ea-97a4-7077813058ce,3119.00,CARD PAYMENT,PAID,2014-07-02,Medium
+5958,Todd,jensen157@gmail.com,Retail,31ce7a18-66f3-11ea-94eb-7077813058ce,13693.00,COD,PAID,2004-09-25,High
+1275,Marion,cristina330@ymail.com,Retail,31cf3d24-66f3-11ea-8054-7077813058ce,80796.00,COD,PAID,2010-03-09,High
+6357,Adrianna,annamaria542@ymail.co.in,Retail,31d0006c-66f3-11ea-9c10-7077813058ce,19804.00,COD,NOT PAID,,High
+4551,Jaimee,jennie676@gmail.com,Wholesale,31d16094-66f3-11ea-b511-7077813058ce,75766.00,CARD PAYMENT,NOT PAID,,High
+4252,Joe,eldon965@gmail.com,Internal Goods,31d222e8-66f3-11ea-9b54-7077813058ce,74338.00,COD,NOT PAID,,High
+2096,Jennifer,tammi464@google.co.in,Internal Goods,31d2e636-66f3-11ea-8df2-7077813058ce,73423.00,CARD PAYMENT,PAID,2012-08-20,High
+5209,Peyton,elise537@google.co.in,Retail,31d3f842-66f3-11ea-a75e-7077813058ce,91842.00,COD,PAID,1976-08-31,High
+9271,Joel,twanna51@outlook.com,Retail,31d4bb6c-66f3-11ea-9ff7-7077813058ce,81148.00,COD,NOT PAID,,High
+6772,Chasity,dawn379@gmail.com,Wholesale,31d5a4e4-66f3-11ea-861b-7077813058ce,96963.00,COD,PAID,2009-09-29,High
+4628,Darrel,gael721@hotmail.com,Retail,31d68f18-66f3-11ea-b8c4-7077813058ce,88092.00,COD,NOT PAID,,High
+3853,Frank,joao478@ymail.co.in,Retail,31d77952-66f3-11ea-b47a-7077813058ce,66397.00,CARD PAYMENT,NOT PAID,,High
+515,Christina,muriel437@yahoo.com,Wholesale,31d8638c-66f3-11ea-8b90-7077813058ce,1714.00,CARD PAYMENT,PAID,1987-04-30,Medium
+7513,Bruno,valeria27@ymail.com,Wholesale,31d927a2-66f3-11ea-bb48-7077813058ce,5059.00,CARD PAYMENT,NOT PAID,,High
+9030,Fabiola,yasmeen6@outlook.com,Internal Goods,31d9eaca-66f3-11ea-b8c8-7077813058ce,66582.00,CARD PAYMENT,NOT PAID,,High
+2378,Lucien,cecilia196@hotmail.com,Internal Goods,31da86f6-66f3-11ea-8b12-7077813058ce,42143.00,CARD PAYMENT,PAID,1972-06-16,High
+5894,Laverne,brent496@ymail.co.in,Internal Goods,31db9768-66f3-11ea-883c-7077813058ce,27741.00,COD,NOT PAID,,High
+7587,Joseph,gray853@yahoo.co.in,Internal Goods,31dcf6d4-66f3-11ea-a647-7077813058ce,696.00,CARD PAYMENT,NOT PAID,,Low
+1424,George,kenny233@hotmail.com,Retail,31de0880-66f3-11ea-ab1e-7077813058ce,37660.00,CARD PAYMENT,NOT PAID,,High
+5214,Velma,jasmine269@hotmail.com,Retail,31df1974-66f3-11ea-948f-7077813058ce,16299.00,CARD PAYMENT,NOT PAID,,High
+8249,Christy,kelly404@gmail.com,Retail,31e02ac0-66f3-11ea-85d7-7077813058ce,16690.00,CARD PAYMENT,PAID,1996-09-13,High
+3172,Catherine,alysha459@ymail.co.in,Internal Goods,31e163c2-66f3-11ea-a771-7077813058ce,21003.00,CARD PAYMENT,NOT PAID,,High
+5489,Lita,rashawn68@hotmail.com,Retail,31e27454-66f3-11ea-985a-7077813058ce,93642.00,COD,PAID,2002-09-08,High
+2037,Stephon,rita822@google.co.in,Wholesale,31e3aca4-66f3-11ea-b4f1-7077813058ce,34832.00,COD,NOT PAID,,High
+2401,Demetrius,jaime171@hotmail.com,Wholesale,31e496d4-66f3-11ea-ae24-7077813058ce,59176.00,COD,PAID,1995-01-01,High
+1303,Evan,debora90@gmail.com,Internal Goods,31e5a810-66f3-11ea-b394-7077813058ce,3846.00,COD,NOT PAID,,Medium
+6798,Rita,jan949@yahoo.co.in,Internal Goods,31e70780-66f3-11ea-a98c-7077813058ce,17651.00,CARD PAYMENT,PAID,1989-10-17,High
+9917,Franklin,van725@yahoo.com,Wholesale,31e7ca9a-66f3-11ea-a42b-7077813058ce,2282.00,CARD PAYMENT,NOT PAID,,Medium
+2969,Dianne,jalen271@gmail.com,Retail,31e92a06-66f3-11ea-a2c3-7077813058ce,49908.00,CARD PAYMENT,NOT PAID,,High
+8737,Mickey,samual419@outlook.com,Retail,31ea3b58-66f3-11ea-bc9e-7077813058ce,68886.00,COD,NOT PAID,,High
+2104,Amy,holli358@ymail.com,Wholesale,31eb4c8c-66f3-11ea-b7ad-7077813058ce,41456.00,CARD PAYMENT,PAID,1992-12-27,High
+1702,Eileen,latasha554@ymail.com,Wholesale,31ebe8b4-66f3-11ea-b8ca-7077813058ce,39488.00,COD,NOT PAID,,High
+8933,Stanley,alexia103@ymail.com,Retail,31ecabe2-66f3-11ea-9fa2-7077813058ce,75362.00,COD,PAID,2017-08-24,High
+3624,Douglas,beth30@yahoo.co.in,Internal Goods,31ed6f18-66f3-11ea-af57-7077813058ce,73137.00,CARD PAYMENT,PAID,2015-03-20,High
+4892,Jill,valencia714@yahoo.co.in,Wholesale,31ee3246-66f3-11ea-ae6c-7077813058ce,77570.00,CARD PAYMENT,NOT PAID,,High

@@ -1,0 +1,146 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d8e0306f-5057-4ecb-b119-d9ffd78e51bf",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "SELECT\n  COUNT(ss.sh_id) AS total_shipments_created,\n  SUM(CASE WHEN ss.current_status = 'DELIVERED' THEN 1 ELSE 0 END) AS delivered_shipments,\n  SUM(CASE WHEN ss.current_status != 'DELIVERED' THEN 1 ELSE 0 END) AS not_delivered_shipments,\n  SUM(CASE WHEN ss.sh_domain = 'Domestic' THEN 1 ELSE 0 END) AS domestic_shipments,\n  SUM(CASE WHEN ss.sh_domain = 'International' THEN 1 ELSE 0 END) AS international_shipments,\n  SUM(CASE WHEN ss.ser_type = 'Express' THEN 1 ELSE 0 END) AS express_shipments,\n  SUM(CASE WHEN ss.ser_type = 'Regular' THEN 1 ELSE 0 END) AS regular_shipments,\n  SUM(ss.sh_charges) AS total_shipment_charges_collected,\n  SUM(CASE WHEN p.payment_status != 'PAID' THEN 1 ELSE 0 END) AS pending_payments_count\nFROM shipmentstatus ss\nLEFT JOIN payment_details p ON ss.sh_id = p.sh_id;",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        208,
+        0
+      ],
+      "id": "e9063f9e-4fd2-4df7-94ca-722e2c9bbfe6",
+      "name": "Execute a SQL query",
+      "credentials": {
+        "postgres": {
+          "id": "cvVtuhVA51WF9GGZ",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"openai/gpt-oss-20b\",\n  \"messages\": [\n    {\n      \"role\": \"system\",\n      \"content\": \"You are a professional logistics operations analyst. Generate clean plain-text business emails only. Do not use markdown symbols like *, **, bullets, or hashtags. Use INR currency symbol ₹ instead of $. Keep formatting simple and professional.\"\n    },\n    {\n      \"role\": \"user\",\n      \"content\": \"Create a professional daily logistics operations email report using these metrics: Total Shipments: {{$json.total_shipments_created}}, Delivered: {{$json.delivered_shipments}}, Not Delivered: {{$json.not_delivered_shipments}}, Domestic: {{$json.domestic_shipments}}, International: {{$json.international_shipments}}, Express: {{$json.express_shipments}}, Regular: {{$json.regular_shipments}}, Total Charges: ₹{{$json.total_shipment_charges_collected}}, Pending Payments: {{$json.pending_payments_count}}. Highlight any delays or payment issues and end with one actionable recommendation.\"\n    }\n  ],\n  \"temperature\": 0.4\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        416,
+        0
+      ],
+      "id": "17424fb6-23e7-4a8f-8784-c95901498d30",
+      "name": "HTTP Request",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "7j6Zh35wcAb0RjLi",
+          "name": "Header Auth account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fromEmail": "operations@tatamotors-demo.com",
+        "toEmail": "ruchinailwal2003@gmail.com",
+        "subject": "Daily Logistics Operations Report",
+        "emailFormat": "text",
+        "text": "={{$json.choices[0].message.content}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        624,
+        0
+      ],
+      "id": "4eb6d2b6-820b-418e-8198-e4ebd2ec9eb0",
+      "name": "Send an Email",
+      "webhookId": "519c9cc3-23b4-4b41-9d4e-e14dffb1bd1e",
+      "credentials": {
+        "smtp": {
+          "id": "kQMJ5dM531p9igBv",
+          "name": "SMTP account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Send an Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "79e568c7-6915-48ea-9358-7d89edce165e",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d2c17968d264c4da317d5aeeb823bd7f735a68d1f87a03f0eba7496cd566faca"
+  },
+  "nodeGroups": [],
+  "id": "u0N20ERIrOBPuOid",
+  "tags": []
+}

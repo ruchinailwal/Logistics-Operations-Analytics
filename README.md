@@ -73,9 +73,13 @@ Webhook → PostgreSQL → Groq API → Plain-English Response
 
 ## Repository Structure
 
-- `dataset/` — Raw source CSV files
+- `dataset/` — Raw CSV source files
 - `sql_etl/` — PostgreSQL ETL scripts
-- `excel/` — Excel / Google Sheets analysis
-- `powerbi_dashboard/` — Power BI report and exports
-- `n8n_automation/` — n8n workflow JSON files
+- `excel/` — Excel dashboard screenshot
+- `powerbi_dashboard/` — Power BI dashboard screenshots and Power BI file
+- `n8n_automation/` — Workflow 1 and Workflow 2 screenshots
 - `README.md` — Project documentation
+
+## Author
+
+**Ruchi Nailwal**
